@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm John Doe, an aspiring software developer.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate software developer with a keen interest in web development and artificial intelligence. I completed my BSc in Computer Science and have worked on various projects that showcase my skills and expertise.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Angular</li>
+            <li>Node.js, Express</li>
+            <li>Python, Django</li>
+            <li>Machine Learning, Data Analysis</li>
+            <li>Git, GitHub</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Personal Blog</h3>
+            <p>Developed a personal blog using React and Node.js. Implemented features like user authentication, commenting, and a rich text editor. <a href="https://github.com/yourprofile/personal-blog" target="_blank">View on GitHub</a></p>
+        </div>
+        <div class="project">
+            <h3>AI Chatbot</h3>
+            <p>Created an AI chatbot using Python and TensorFlow. The bot can understand and respond to user queries in natural language. <a href="https://github.com/yourprofile/ai-chatbot" target="_blank">View on GitHub</a></p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience">
+            <h3>Software Development Intern - ABC Corp</h3>
+            <p>June 2023 - August 2023</p>
+            <p>Worked on developing and testing web applications. Gained experience in full-stack development and improved my problem-solving skills.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <h3>University of XYZ</h3>
+            <p>BSc in Computer Science, 2024</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+        <ul>
+            <li><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/yourprofile" target="_blank">GitHub</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
